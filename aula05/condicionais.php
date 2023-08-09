@@ -49,3 +49,8 @@ if($variavel1 > 1){
 if(($variavel1 == 1 && $variavel2 == 2) && ($variavel3 == 3)){
     echo " jubileu|";
 }
+
+// teste 1 linha (apenas quando resultado for booleano)
+$lo = 3;
+($lo == 3) ? $lo++ : $lo--;
+echo $lo;

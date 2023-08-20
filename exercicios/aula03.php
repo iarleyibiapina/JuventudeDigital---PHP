@@ -9,6 +9,7 @@ function exibeEndereco($varLocal){
 };
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <body>

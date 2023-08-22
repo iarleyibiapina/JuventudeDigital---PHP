@@ -5,7 +5,9 @@
         $cidade = $_POST['cidade'];
         $bairro = $_POST['bairro'];
         $cep = $_POST['cep'];
-    }
+    } else {
+        header('location: ./index.php');
+        }
     $arrayGlobal = ["Gol", "Uno", "Pálio", "Vectra", "Fiesta", "206", "Ka", "Siena", "Golf GTi", "Siena"];
     function exibeArray($array){
     foreach($array as $items){
